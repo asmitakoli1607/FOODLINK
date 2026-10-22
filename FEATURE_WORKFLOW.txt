@@ -1,0 +1,12 @@
+NEW FEATURE: FARM-TO-FOOD-SOURCE MARKETPLACE
+Purpose: farmers can sell fresh vegetables directly to hotels, canteens, caterers, and other food providers without a middleman.
+
+1. Farmer logs in and opens Farmer Market.
+2. Farmer adds a produce listing: vegetable name, available quantity, price per kg, farm location, and contact note.
+3. Listing is stored in SQLite3 with status AVAILABLE and appears on the marketplace.
+4. A Food Provider logs in, opens Farmer Market, and presses CONNECT & REQUEST.
+5. Listing status becomes REQUESTED. The provider is saved as the buyer, and both parties can see the request on the market page.
+6. Farmer and Provider can use the displayed contact note to complete the direct sale outside this prototype.
+7. Admin can see every listing. Future version: price negotiation, online payments, delivery tracking, ratings, verified farms, and maps.
+
+This feature supports FoodLink's circular ecosystem: farmers sell fresh produce to food sources; food sources can later redirect safe surplus meals to NGOs; unsuitable food can go to compost.
